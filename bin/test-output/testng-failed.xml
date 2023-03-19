@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.ocr.qa.tests.ReferalFormPageTest">
+        <methods>
+          <include name="DisableAllNonMandatoryToggle_ButtonsOnReferralFormPage"/>
+          <include name="ReferalFormPage_SetupMethod"/>
+        </methods>
+      </class> <!-- com.ocr.qa.tests.ReferalFormPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ocr.qa.tests.DashboardpageTest">
+        <methods>
+          <include name="DashboardPage_SetupMethod"/>
+          <include name="OCRImageLogoAppearsOnTheHeader_OfDashboardPage"/>
+          <include name="CorrectReferralsTabNameAppearsOnTheHeader_OfDashboardPage"/>
+          <include name="CorrectPatientsTabNameAppearsOnTheHeader_OfDashboardPage"/>
+          <include name="CorrectColleaguesTabNameAppearsOnTheHeader_OfDashboardPage"/>
+          <include name="UsernameAppearsOnTheHeader_OfDashboardPage"/>
+          <include name="TestCase_QuitMethod"/>
+        </methods>
+      </class> <!-- com.ocr.qa.tests.DashboardpageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

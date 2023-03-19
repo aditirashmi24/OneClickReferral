@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="246008" started-at="2020-05-22T04:44:19Z" finished-at="2020-05-22T04:48:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="246008" started-at="2020-05-22T04:44:19Z" finished-at="2020-05-22T04:48:25Z">
+      <class name="com.ocr.qa.tests.ReferalFormPageTest">
+        <test-method status="PASS" signature="ReferalFormPage_SetupMethod()[pri:0, instance:com.ocr.qa.tests.ReferalFormPageTest@78c03f1f]" name="ReferalFormPage_SetupMethod" is-config="true" duration-ms="86974" started-at="2020-05-22T10:14:19Z" finished-at="2020-05-22T10:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReferalFormPage_SetupMethod -->
+        <test-method status="PASS" signature="UserIsAbleToEnableAll_ToggleButtonsOnReferralFormPage()[pri:4, instance:com.ocr.qa.tests.ReferalFormPageTest@78c03f1f]" name="UserIsAbleToEnableAll_ToggleButtonsOnReferralFormPage" duration-ms="158981" started-at="2020-05-22T10:15:46Z" finished-at="2020-05-22T10:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserIsAbleToEnableAll_ToggleButtonsOnReferralFormPage -->
+      </class> <!-- com.ocr.qa.tests.ReferalFormPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

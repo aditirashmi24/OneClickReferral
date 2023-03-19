@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.ocr.qa.tests.SelectWhoAreYouPageTest">
+        <methods>
+          <include name="LoginPageOpensUp_OnClickingLoginlink"/>
+          <include name="DentistNameAppears_OnEnteringExistingDetailsInSearchField"/>
+          <include name="PricingOneClickSignUpPage_OpensUpOnClickingSignUplink"/>
+          <include name="OneClickReferral_ImageLogoAppersOnSelectWhoYouArePage"/>
+          <include name="SelectWhoYouAre_PageOpensUpOnOpenningURL"/>
+          <include name="CorrectInformationMessageAppears_OnEnteringNonExistingDetailsInSearchField"/>
+          <include name="TestCase_QuitMethod"/>
+          <include name="SelectWhoAreYouPage_SetupMethod"/>
+        </methods>
+      </class> <!-- com.ocr.qa.tests.SelectWhoAreYouPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,86 @@
+url= https://referqa.oneclickreferral.com/ 
+username=Levin
+password=Hello@123
+browser= chrome 
+
+#PATIENT PAGE-------------------------------------------------------------|
+Fullname= Levin Q
+Patientfirstname= mark
+AppearPatientname=Mark
+inv= crt 
+colleagename= Morgan Ferguson
+Non-existingcolleagename= hrk 
+
+
+Addedcolleagename2= Greg
+Addedcolleagename4= dentist
+Addedcolleagname5= morgan 
+Addedcolleagname6= Akshit Leck
+
+ Anycolleageemail=dentistvivekqa64@yopmail.com
+ Anycolleageemail2=tspivey@deloitte.com
+ Anycolleageemail3=vivek888@yopmail.com
+ Nonexistingemail=vshr121@gmail.com 
+ loggedinuseremailid=levin@yopmail.com
+ TeamMemberemailid=Rahul767@yopmail.com
+ StaffMemberemailid=testsync12@yopmail.com
+ ValidateAddedColleaguesName=Five, Two
+ 
+ #PATIENT HISTORY-----------------------------------------------------------|
+ lastnameinPatientinformationunderpatinetforms=BEHKAM
+ FirstnameinPatientforms=David
+ LastnameinPatientforms=Miller
+ enterperonalnoteininInviteColleaguespage=This is a confirmation message.
+ Addedbydentistnameinyopmail=Levin Q added you as a colleague on RecordLinc
+ AppearPatientNameinPatientHistorypage=David Miller
+ AddedcolleagenameinPatientHistorypage= Test Last
+ AddedcolleagenameinPatientHistorypage1=Riyan Sam
+ 
+ 
+ #COLLEAGUES PAGE------------------------------------------------------------|
+ ColleaguesPageColleagueName=Colleague Page
+ ColleaguesPageColleagueEmailId=colleaguepage@yopmail.com
+ ColleagNameAppearsOnSearchCollPage=Colleague   Page
+ #TOM SPIVEY IS USED FOR COLLEAGUES PAGE
+ Addedcolleagename4=Two Five
+ Addedcolleagename3= Tom Spivey
+   
+ #SEND REFERRALS PAGE -------------------------------------------------------|
+ PageSendReferralAddPatientFirstName=Smith
+ PageSendReferralAddPatientLastName=Gerry
+ 
+ 
+ 
+ #DENTAL INSURANCE SECTION
+ PrimaryInsuranceCompanyName=NUtentcomp
+ PrimaryInsuranceCompanyPhone=1324567894
+ PrimaryNameofInsured=KelAaron 
+ 
+ #DENTAL HISTORY SECTION
+ PreviousDentistName=Morgan
+ Whenwasthelasttimeyouhadyourteethcleaned=3-4 months ago
+ 
+ PageSendReferralAddPatientPhoneNumber=03214567598
+ ExistingPatientname=Aaron
+ ExistingPatientphonenumber=(310) 710-4151
+ ExistingPatientFullname=Aaron Soufer
+ //ForMaleValue 0 and female vale 1
+ ExistingPatientGender=0
+ 
+ #CONVERSTAION PAGE------*******--------------------------------------------|
+ ReferralRecivedDentist=tom jerry
+ ReferredPatientName=Aaron Soufer
+ PageSendReferralAddEmailforConversationPage=patient7@yopmail.com
+ PageSendReferralDentistAddEmailforConversationPage=levin@yopmail.com
+ PageSendReferralColleagueAddEmailforConversationPage=tjerry@yopmail.com
+ ExistingPatientnameforConversationPage=Patient7
+ ExistingPatientnameforConversationPage1=tpatient7
+ 
+ 
+ #REFERRALS PAGE-------********---------------------------------------------|
+ ReferredPatientNameAppearsOnReferralsPage=Aaron
+ EmailIdOfPatient=peta@yopmail.com
+ 
+ 
+ 
+ 

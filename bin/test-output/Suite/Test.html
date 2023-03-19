@@ -1,0 +1,329 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>50/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 21 13:25:50 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>7210 seconds (7210072 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.AddPatientAfterEnteringMandatoryDetails_OnAddPatientPage()'><b>AddPatientAfterEnteringMandatoryDetails_OnAddPatientPage</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>87</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.AllAddedColleaguesNameAppeaOnEnteringCharIn_SearchColleagueFieldUnderCommunicationsSection()'><b>AllAddedColleaguesNameAppeaOnEnteringCharIn_SearchColleagueFieldUnderCommunicationsSection</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>39</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.AllAddedDetailsAppear_AutofillUnderPatientsFormsSection()'><b>AllAddedDetailsAppear_AutofillUnderPatientsFormsSection</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>99</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.AllAddedDetailsOfPatientAppears_OnPatientHistoryPage()'><b>AllAddedDetailsOfPatientAppears_OnPatientHistoryPage</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>95</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SelectWhoAreYouPageTest.CorrectInformationMessageAppears_OnEnteringNonExistingDetailsInSearchField()'><b>CorrectInformationMessageAppears_OnEnteringNonExistingDetailsInSearchField</b><br>Test class: com.ocr.qa.tests.SelectWhoAreYouPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.ocr.qa.tests.SelectWhoAreYouPageTest@7a30d1e6</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.DeleteAttachedFileOn_ClickingDeleteIcon()'><b>DeleteAttachedFileOn_ClickingDeleteIcon</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>160</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.DentistIsAbleToExportAllPatientFilesOn_ClickingExportFileBtn()'><b>DentistIsAbleToExportAllPatientFilesOn_ClickingExportFileBtn</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>91</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.DentistIsAbleToUploadValidFilesOn_ClickingAttachFilesBtn()'><b>DentistIsAbleToUploadValidFilesOn_ClickingAttachFilesBtn</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>128</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.DentistMovesToThePatientFormsSection_OnClickingPatientFormsIcon()'><b>DentistMovesToThePatientFormsSection_OnClickingPatientFormsIcon</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>77</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SelectWhoAreYouPageTest.DentistNameAppears_OnEnteringExistingDetailsInSearchField()'><b>DentistNameAppears_OnEnteringExistingDetailsInSearchField</b><br>Test class: com.ocr.qa.tests.SelectWhoAreYouPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.ocr.qa.tests.SelectWhoAreYouPageTest@7a30d1e6</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.DownloadAttachedFileOn_ClickingDownloadIcon()'><b>DownloadAttachedFileOn_ClickingDownloadIcon</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>117</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.LoginpageTest.LoginAfterEnteringValidCredentials_OnLoginPage()'><b>LoginAfterEnteringValidCredentials_OnLoginPage</b><br>Test class: com.ocr.qa.tests.LoginpageTest</td>
+<td></td>
+<td>3</td>
+<td>com.ocr.qa.tests.LoginpageTest@8e24743</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SelectWhoAreYouPageTest.LoginPageOpensUp_OnClickingLoginlink()'><b>LoginPageOpensUp_OnClickingLoginlink</b><br>Test class: com.ocr.qa.tests.SelectWhoAreYouPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.ocr.qa.tests.SelectWhoAreYouPageTest@7a30d1e6</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.LoginpageTest.OCRLogoAppears_OnLoginPage()'><b>OCRLogoAppears_OnLoginPage</b><br>Test class: com.ocr.qa.tests.LoginpageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ocr.qa.tests.LoginpageTest@8e24743</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.OCRLogoAppears_OnSignUpPage()'><b>OCRLogoAppears_OnSignUpPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SelectWhoAreYouPageTest.OneClickReferral_ImageLogoAppersOnSelectWhoYouArePage()'><b>OneClickReferral_ImageLogoAppersOnSelectWhoYouArePage</b><br>Test class: com.ocr.qa.tests.SelectWhoAreYouPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ocr.qa.tests.SelectWhoAreYouPageTest@7a30d1e6</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.PatientReferralFromDentistNamePopupOpensUp_OnClickingMessageTypeUnderCommunicationsSection()'><b>PatientReferralFromDentistNamePopupOpensUp_OnClickingMessageTypeUnderCommunicationsSection</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>112</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.PatientReferralFromDentistNamePopupOpensUp_OnClickingReferralTypeUnderCommunicationsSection()'><b>PatientReferralFromDentistNamePopupOpensUp_OnClickingReferralTypeUnderCommunicationsSection</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>91</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SelectWhoAreYouPageTest.PricingOneClickSignUpPage_OpensUpOnClickingSignUplink()'><b>PricingOneClickSignUpPage_OpensUpOnClickingSignUplink</b><br>Test class: com.ocr.qa.tests.SelectWhoAreYouPageTest</td>
+<td></td>
+<td>8</td>
+<td>com.ocr.qa.tests.SelectWhoAreYouPageTest@7a30d1e6</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.PrintAllCommunicationDetailsOnClicking_PrintAllButtonUnderCommunicationsSection()'><b>PrintAllCommunicationDetailsOnClicking_PrintAllButtonUnderCommunicationsSection</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>44</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.PrintMessageDetailsOnClicking_PrintLinkUnderCommunicationsSection()'><b>PrintMessageDetailsOnClicking_PrintLinkUnderCommunicationsSection</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>95</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.PrintallButtonIsNotFunctional_WhenNoDetailsAvailableInCommunicationsSection()'><b>PrintallButtonIsNotFunctional_WhenNoDetailsAvailableInCommunicationsSection</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>99</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.LoginpageTest.RecordlincForgotPasswordPageOpensUp_OnClickingForgotPasswordLinkOnLoginPage()'><b>RecordlincForgotPasswordPageOpensUp_OnClickingForgotPasswordLinkOnLoginPage</b><br>Test class: com.ocr.qa.tests.LoginpageTest</td>
+<td></td>
+<td>5</td>
+<td>com.ocr.qa.tests.LoginpageTest@8e24743</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.SavedetailsInDentalInsuranceMedicalHistory_AndDentalHistorySectionsOnPatientHistoryPage()'><b>SavedetailsInDentalInsuranceMedicalHistory_AndDentalHistorySectionsOnPatientHistoryPage</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>94</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SelectWhoAreYouPageTest.SelectWhoYouAre_PageOpensUpOnOpenningURL()'><b>SelectWhoYouAre_PageOpensUpOnOpenningURL</b><br>Test class: com.ocr.qa.tests.SelectWhoAreYouPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ocr.qa.tests.SelectWhoAreYouPageTest@7a30d1e6</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.SendReferralPageOpensUpOnClicking_ReferPatientIconOnPatientHistoryPage()'><b>SendReferralPageOpensUpOnClicking_ReferPatientIconOnPatientHistoryPage</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>39</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.LoginpageTest.SignInToOneClickReferral_TitleAppearsOnLoginPage()'><b>SignInToOneClickReferral_TitleAppearsOnLoginPage</b><br>Test class: com.ocr.qa.tests.LoginpageTest</td>
+<td></td>
+<td>1</td>
+<td>com.ocr.qa.tests.LoginpageTest@8e24743</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.SignUpPageOpensUp_OnClickingSIGNUPlink()'><b>SignUpPageOpensUp_OnClickingSIGNUPlink</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>11</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.SuccessMsgAppearsOnClickingSubmitBtn_AfterEnteringValidDetailsUnderPersonalInfoSection()'><b>SuccessMsgAppearsOnClickingSubmitBtn_AfterEnteringValidDetailsUnderPersonalInfoSection</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>54</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.UpdatePatientDetailsUnder_PatientDetailsSectionOnPatientHistoryPage()'><b>UpdatePatientDetailsUnder_PatientDetailsSectionOnPatientHistoryPage</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>105</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.UploadProfilePicturePopupOpensUp_OnClickingCameraIcon()'><b>UploadProfilePicturePopupOpensUp_OnClickingCameraIcon</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>64</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.UserIsAbleToSelectMultipleColleaguesIn_SearchColleagueFieldUnderCommunicationsSection()'><b>UserIsAbleToSelectMultipleColleaguesIn_SearchColleagueFieldUnderCommunicationsSection</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>102</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.UserIsAbleToSendMessageAfterSelectingColleagueAndEntering_TextUnderCommunicationSection()'><b>UserIsAbleToSendMessageAfterSelectingColleagueAndEntering_TextUnderCommunicationSection</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>101</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.UserIsAbleToUploadPatient_ProfileImageUnderPatientHistoryPage()'><b>UserIsAbleToUploadPatient_ProfileImageUnderPatientHistoryPage</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>82</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.ValidationMessageAppearsIfTheEnteredPassword_InPasswordFieldDoesNotMeetThePasswordCriteriaOnSignUpPage()'><b>ValidationMessageAppearsIfTheEnteredPassword_InPasswordFieldDoesNotMeetThePasswordCriteriaOnSignUpPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.ValidationMessageAppearsOnEnteringAlready_RegisteredEmailAddressInEmailTextfieldOnSignUpPage()'><b>ValidationMessageAppearsOnEnteringAlready_RegisteredEmailAddressInEmailTextfieldOnSignUpPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>16</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.ValidationMessageAppearsOnEnteringLess_Than10DigitInWorkPhoneMandatoryFieldsBlankUnderSignUpPage()'><b>ValidationMessageAppearsOnEnteringLess_Than10DigitInWorkPhoneMandatoryFieldsBlankUnderSignUpPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>6</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.ValidationMessageAppearsOnEnteringMore_Than10DigitInWorkPhoneMandatoryFieldsBlankUnderSignUpPage()'><b>ValidationMessageAppearsOnEnteringMore_Than10DigitInWorkPhoneMandatoryFieldsBlankUnderSignUpPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>6</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.ValidationMessageAppearsOnEntering_InvalidEmailAddressInEmailTextfieldOnSignUpPage()'><b>ValidationMessageAppearsOnEntering_InvalidEmailAddressInEmailTextfieldOnSignUpPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>6</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.ValidationMessageAppearsOnLeavingSelectA_SpecialtyMandatoryFieldBlankUnderSpecialtyPage()'><b>ValidationMessageAppearsOnLeavingSelectA_SpecialtyMandatoryFieldBlankUnderSpecialtyPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>18</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.ValidationMessageAppearsOnLeaving_MandatoryFieldsBlankUnderSignUpPage()'><b>ValidationMessageAppearsOnLeaving_MandatoryFieldsBlankUnderSignUpPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>16</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.ValidationMsgAppearsOnLeavingMandatoryFieldsBlank_UnderPatientInformationSection()'><b>ValidationMsgAppearsOnLeavingMandatoryFieldsBlank_UnderPatientInformationSection</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>64</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.PatienthistorypageTest.ValidationMsgAppearsOnUploading_InvalidFileUnderPatientFilesSection()'><b>ValidationMsgAppearsOnUploading_InvalidFileUnderPatientFilesSection</b><br>Test class: com.ocr.qa.tests.PatienthistorypageTest</td>
+<td></td>
+<td>99</td>
+<td>com.ocr.qa.tests.PatienthistorypageTest@cb0ed20</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.VerifyThatSelectedSpecialtyStillAppears_OnSpecialtyPageAfterClickingNEXTButtonUnderSignUppage()'><b>VerifyThatSelectedSpecialtyStillAppears_OnSpecialtyPageAfterClickingNEXTButtonUnderSignUppage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>32</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.VerifyThatSignUpPageOpensUpOnClicking_PREVIOUSButtonUnderSpecialtyPage()'><b>VerifyThatSignUpPageOpensUpOnClicking_PREVIOUSButtonUnderSpecialtyPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>26</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.VerifyThatSpecialtyPageOpensUp_OnClickingNEXTButtonUnderSignUpPage()'><b>VerifyThatSpecialtyPageOpensUp_OnClickingNEXTButtonUnderSignUpPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>19</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.VerifyThatUserIsAbleToEnterPractice_NameInPracticeNameTextfieldOnSpecialtyPage()'><b>VerifyThatUserIsAbleToEnterPractice_NameInPracticeNameTextfieldOnSpecialtyPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>41</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.VerifyThatUserIsAbleToSelectAMultipleSpecialty_OnClickingSelectASpecialityDropdownOnSpecialtyPage()'><b>VerifyThatUserIsAbleToSelectAMultipleSpecialty_OnClickingSelectASpecialityDropdownOnSpecialtyPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>27</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.VerifyThatUserIsAbleToSelectASpecialty_OnClickingSelectASpecialityDropdownOnSpecialtyPage()'><b>VerifyThatUserIsAbleToSelectASpecialty_OnClickingSelectASpecialityDropdownOnSpecialtyPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>24</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+<tr>
+<td title='com.ocr.qa.tests.SignUpPageTest.VerifyThatUserIsAbleToSubmitSignUp_DetailsOnClickingFINISHButtonUnderSpecialtyPage()'><b>VerifyThatUserIsAbleToSubmitSignUp_DetailsOnClickingFINISHButtonUnderSpecialtyPage</b><br>Test class: com.ocr.qa.tests.SignUpPageTest</td>
+<td></td>
+<td>24</td>
+<td>com.ocr.qa.tests.SignUpPageTest@5891e32e</td></tr>
+</table><p>
+</body>
+</html>

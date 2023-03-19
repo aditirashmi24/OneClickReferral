@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+
+         	<class name="com.ocr.qa.tests.DashboardpageTest" />
+			<!-- <class name="com.ocr.qa.tests.SelectWhoAreYouPageTest" />
+			<class name="com.ocr.qa.tests.LoginpageTest" />
+			<class name="com.ocr.qa.tests.DashboardpageTest" />
+			<class name="com.ocr.qa.tests.PatientspageTest" />
+			<class name="com.ocr.qa.tests.PatienthistorypageTest" />
+			<class name="com.ocr.qa.tests.ColleaguespageTest" />
+			<class name="com.ocr.qa.tests.InviteColleaguespageTest" />
+			<class name="com.ocr.qa.tests.SendReferralpageTest" />
+			<class name="com.ocr.qa.tests.ConversationspageTest" />
+			<class name="com.ocr.qa.tests.ReferralspageTest" />
+			<class name="com.ocr.qa.tests.ProfilepageTest" />
+			<class name="com.ocr.qa.tests.SecuritySettingsPageTest" />
+			<class name="com.ocr.qa.tests.TeamMembersPageTest" />
+			<class name="com.ocr.qa.tests.ReferalFormPageTest" />
+			<class name="com.ocr.qa.tests.PatientFormPageTest" />
+			<class name="com.ocr.qa.tests.IntegrationspageTest" />
+			<class name="com.ocr.qa.tests.SMSConfigurationPageTest" />
+
+			<class name="com.ocr.qa.tests.SignUpPageTest" />
+ -->
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

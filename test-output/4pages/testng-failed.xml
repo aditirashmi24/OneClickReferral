@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [4pages]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.ocr.qa.tests.SelectWhoAreYouPageTest">
+        <methods>
+          <include name="VerifyThatRecordlinc_SignUpPageOpensUpOnClicking_SignUplink"/>
+          <include name="Quit_After_Each_TestCase"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ocr.qa.tests.SelectWhoAreYouPageTest -->
+      <class name="com.ocr.qa.tests.DashboardpageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="quite"/>
+        </methods>
+      </class> <!-- com.ocr.qa.tests.DashboardpageTest -->
+      <class name="com.ocr.qa.tests.PatientspageTest">
+        <methods>
+          <include name="VerifyThatPatientsPage_OpensUpOnClicking_BackButtonUnderEditPatientPage"/>
+          <include name="VerifyThatEditPatientPage_OpensUpOnClickingEditPatient_OptionInSelectActionDropdown"/>
+          <include name="VerifyThatConfirmationMessageAppears_OnClickingDeleteOption_UnderSelectActionDropDown"/>
+          <include name="VerifyThatUserIsAbleToSendPatientForm_OnClickingSendPatientFormOption_UnderSelectActionDropDownOnPatientsPage"/>
+          <include name="VerifyThatUserIsAbleToDeletePatient_OnClickingYesButton_UnderConfirmationMessage"/>
+          <include name="VerifyThatAddPatientPage_OpensUpOnClickingAddPatient_OptionOnPatientsPage"/>
+          <include name="setup"/>
+          <include name="quit"/>
+          <include name="ValidationMessageAppears_OnDeleting_ReferredByPatient"/>
+        </methods>
+      </class> <!-- com.ocr.qa.tests.PatientspageTest -->
+      <class name="com.ocr.qa.tests.LoginpageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.ocr.qa.tests.LoginpageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [4pages] -->
